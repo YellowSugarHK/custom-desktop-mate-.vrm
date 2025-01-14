@@ -8,7 +8,7 @@ class DesktopMate(QMainWindow):
     def __init__(self):
         super().__init__()
 
-        self.setWindowTitle('Desktop Mate VRM')
+        self.setWindowTitle('DesktopMateVRM')
         self.setGeometry(100, 100, 800, 600)
 
         label = QLabel(self)
